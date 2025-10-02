@@ -4,7 +4,7 @@ import json
 reddit = praw.Reddit(
     client_id="",
     client_secret="",
-    user_agent="redditspider:v1.0 (by u/marte_)"
+    user_agent="redditspider"
 )
 
 sub = reddit.subreddit("sspx")
@@ -52,3 +52,4 @@ with open("sspx_dump_full.json", "w", encoding="utf-8") as f:
 
 print(f"✅ Coleta finalizada! Total de posts salvos: {len(result)}")
 print(f"📌 Posts únicos: {len(seen_posts)} | Comentários únicos: {len(seen_comments)}")
+
