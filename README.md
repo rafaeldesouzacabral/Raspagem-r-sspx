@@ -10,7 +10,7 @@ id → identificador único do post.
 title → título do tópico.  
 author → usuário que fez o post.  
 score → votos recebidos (upvotes - downvotes).  
-created_utc → data e hora da criação em segundos UTC.  
+created_utc → data, hora e ano da criação em segundos UTC.  
 url → link associado (imagem, vídeo, artigo ou o link do próprio Reddit).  
 num_comments → número de comentários no tópico.  
 selftext → corpo do post (se houver texto além do título).  
